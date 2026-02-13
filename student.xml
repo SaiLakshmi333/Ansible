@@ -1,0 +1,23 @@
+<students>
+    <student1>
+       <name>Sai</name>
+       <dob>01-01-1999</dob>
+       <address>
+       <flatnumber>7th line plot no 606</flatnumber>
+       </address>
+    </student1>
+    <student2>
+       <name>Sai</name>
+       <dob>01-01-1999</dob>
+       <address>
+       <flatnumber>7th line plot no 606</flatnumber>
+       </address>
+    </student2>
+    <student3>
+       <name>Sai</name>
+       <dob>01-01-1999</dob>
+       <address>
+       <flatnumber>7th line plot no 606</flatnumber>
+       </address>
+    </student3>
+</students>

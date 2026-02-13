@@ -1,0 +1,42 @@
+{
+  "Students" : [  
+    {
+    "student name":"Sailakshmi" ,
+    "dob":"01-01-1999",
+    "address":[
+        {
+            "type":"perm",
+            "streetnum":"James steet",
+            "doorno":606
+
+        }
+         {
+            "type":"perm",
+            "streetnum":"James steet",
+            "doorno":606
+
+        }
+    ],
+    "skills" : ["java","python","sql"]
+    }
+   {
+    "student name":"Sailakshmi" ,
+    "dob":"01-01-1999",
+    "address":[
+        {
+            "type":"perm",
+            "streetnum":"James steet",
+            "doorno":606
+
+        }
+         {
+            "type":"perm",
+            "streetnum":"James steet",
+            "doorno":606
+
+        }
+    ],
+    "skills" : ["java","python","sql"]
+}
+    ]
+}

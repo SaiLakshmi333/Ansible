@@ -1,0 +1,19 @@
+- name: "Student"
+  dob:01-01-1999
+  address:
+  - steet: "Gandhi road"
+    city: "hyd"
+    type: "current"
+  - Street: "Gowlidoddy"
+    city : "hyd"
+    type: "permanent"
+
+- name: "Student"
+  dob: 01-01-1999
+  address:
+  - steet: "Gandhi road"
+    city: "hyd"
+    type: "current"
+  - Street: "Gowlidoddy"
+    city : "hyd"
+    type: "permanent"
