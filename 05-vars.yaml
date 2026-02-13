@@ -6,8 +6,8 @@
     Duration : "4 months"
     mentor : "Siva"
   tasks : 
-  - name : print the variables
-    vars :
-    course : "Ansible"
-  ansible.builtin.debug:
-        msg: this {{ course }} is {{ Duration }} and the teacher is {{mentor}}
+      - name : print the variables
+        vars :
+        course : "Ansible"
+        ansible.builtin.debug:
+            msg: this {{ course }} is {{ Duration }} and the teacher is {{mentor}}
