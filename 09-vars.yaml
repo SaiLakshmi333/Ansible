@@ -1,0 +1,8 @@
+- name : args
+  hosts: local
+  connection : local
+  -tasks:
+    - name: print from args  
+      ansible.builtin.debug:
+        msg: "the {{NAME}} is"
+      
