@@ -12,7 +12,7 @@
      -linux
      -java
      -ansible
-- tasks :
+  tasks :
     - name: print variables"
       ansible.builtin.debug:
         msg: "the {{program}} is {{Duration}} {{details}} {{topics}}"
