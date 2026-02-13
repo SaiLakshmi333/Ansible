@@ -4,4 +4,4 @@
   tasks :
     - name : print variables
       ansible.builtin.debug:
-        meg : the {{course }} is :
+        meg : "the {{course }} is"
