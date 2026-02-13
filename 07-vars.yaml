@@ -1,0 +1,16 @@
+- name: promting
+  hosts: local
+  connection: local
+  become: yes
+  vars_prompt :
+    - name: username
+      prompt : please enter the username
+      private : no
+    - name: password
+      prompt : please enter the password
+      private : yes
+  tasks :
+    - name : promting the details
+      ansible.builtin.debug:
+      msg: the user is {{username}} and password is {{password}}
+  
