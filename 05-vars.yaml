@@ -1,0 +1,12 @@
+- name: task level variables
+  hosts: local
+  connection : local
+  vars :
+    course : "Devops"
+    Duration : "4 months"
+    mentor : "Siva"
+  tasks : 
+    vars :
+      course : "Ansible"
+    ansible.builtin.debug:
+      msg: this {{ course }} is {{ Duration }} and the teacher is {{mentor}}
