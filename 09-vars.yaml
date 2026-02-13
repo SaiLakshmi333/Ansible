@@ -1,4 +1,4 @@
-- name : args
+- name: args
   hosts: local
   connection : local
   -tasks:
