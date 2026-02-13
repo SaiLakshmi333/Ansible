@@ -1,0 +1,11 @@
+- name: print variables
+  hosts: local
+  connection: local
+  become : yes
+  vars: 
+    course : "Devops"
+    Duration : "4 months"
+  tasks : 
+     - name : print variables
+       ansible.builtin.debug:
+        msg: this {{ course }} is {{ Duration }}
