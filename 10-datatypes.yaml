@@ -9,9 +9,9 @@
      months: 4
      trainer: siva
    topics: 
-     -linux
-     -java
-     -ansible
+     - linux
+     - java
+     - ansible
   tasks :
     - name: print variables"
       ansible.builtin.debug:
