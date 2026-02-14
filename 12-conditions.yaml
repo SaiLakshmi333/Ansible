@@ -1,10 +1,10 @@
-- name: conditions
-  hosts: local
-  connections: local
-  become : yes
-  vars: 
+ - name: conditions
+   hosts: local
+   connections: local
+   become : yes
+   vars: 
     number of sessions : 12
-  tasks: 
+   tasks: 
     - name: check conditions
       ansible.builtin.debug:
         msg : number of sessions are {{number of sessions}}
