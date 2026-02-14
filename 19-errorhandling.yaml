@@ -6,8 +6,8 @@
     - name: check the users_output
       ansible.builtin.command: id roboshop
       register: user_output
-      ignore_erros: true
+      ignore_errors: true
 
     - name:  print the user_output
       ansible.builtin.debug:
-       msg: "{{user_output}}"
+        msg: "{{ user_output }}"
