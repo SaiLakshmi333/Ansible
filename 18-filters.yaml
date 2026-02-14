@@ -5,7 +5,8 @@
     topic : linux,shell,ansible
     tags:
       name: ansible
-      project : roboshop  
+      project : roboshop 
+  myIP : 255.156.550.780 
   tasks :
     - name: filters
       ansible.builtin.debug:
@@ -37,4 +38,4 @@
 
     - name: check IPV4 address
       ansible.builtin.debug:
-       msg: "{{myIP | ansible.utils.ipv4}}"
+       msg: "{{ myIP | ansible.utils.ipv4 }}"
