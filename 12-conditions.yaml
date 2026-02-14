@@ -1,7 +1,6 @@
  - name: conditions
    hosts: local
    connections: local
-   become : yes
    vars: 
     number of sessions : 12
    tasks: 
