@@ -1,7 +1,20 @@
 - name: filters
   hosts: local
   connection : local
+  vars:
+    topic : linux,shell,ansible
+  tags:
+    name: ansible
+    project : roboshop  
   tasks :
     - name: filters
       ansible.builtin.debug:
         msg: "Hi ,{{Greeting | default('Good Morning')}}"
+
+    - name: convert string into list
+      ansible.builtin.debug:
+        msg : "{{topic | split(',')}}"
+
+    - name: convert map into list
+      ansible.builtin.debug:
+        msg: "{{tags| dict2items}}"
