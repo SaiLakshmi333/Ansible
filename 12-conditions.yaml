@@ -1,0 +1,10 @@
+- name: conditions
+  hosts: local
+  connections: local
+  vars: 
+    number of sessions : 12
+  tasks: 
+    - name: check conditions
+      ansible.builtin.debug:
+        msg : number of sessions are {{number of sessions}}
+      when: number of sessions > 15 
