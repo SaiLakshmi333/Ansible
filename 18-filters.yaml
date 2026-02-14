@@ -6,7 +6,7 @@
     tags:
       name: ansible
       project : roboshop 
-    myIP : 255.156.550.780 
+    myIP : 255.156.190.180 
   tasks :
     - name: filters
       ansible.builtin.debug:
