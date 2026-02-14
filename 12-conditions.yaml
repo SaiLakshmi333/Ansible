@@ -1,6 +1,6 @@
 - name: conditions
   hosts: local
-  connections: local
+  connections : local
   vars: 
     number of sessions : 12
   tasks: 
