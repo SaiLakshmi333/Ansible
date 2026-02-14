@@ -1,5 +1,5 @@
 - name: "Student"
-  dob:01-01-1999
+  dob: 01-01-1999
   address:
   - steet: "Gandhi road"
     city: "hyd"
