@@ -3,9 +3,9 @@
   connection : local
   vars:
     topic : linux,shell,ansible
-  tag:
-    name: ansible
-    project : roboshop  
+    tags:
+      name: ansible
+      project : roboshop  
   tasks :
     - name: filters
       ansible.builtin.debug:
