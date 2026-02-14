@@ -2,6 +2,6 @@
   hosts: local
   connection : local
   tasks :
-    -name : Print the gathering facts
+    -name: Print the gathering facts
     ansible.builtin.debug:
-      msg : facts : "{{ansible_facts}}"
+      msg :  "{{ansible_facts}}"
