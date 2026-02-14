@@ -3,7 +3,7 @@
   connection : local
   vars:
     topic : linux,shell,ansible
-  tags:
+  tag:
     name: ansible
     project : roboshop  
   tasks :
