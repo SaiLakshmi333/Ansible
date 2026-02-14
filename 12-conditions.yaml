@@ -7,4 +7,4 @@
     - name: check conditions
       ansible.builtin.debug:
         msg : number of sessions are {{numberofsessions}}
-      when: numberofsessions > 15 
+      when: numberofsessions > 11 
