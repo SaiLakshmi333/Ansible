@@ -7,6 +7,6 @@
      register: users_output  
 
    - name : print users_output
-     ansible.buitin.debug:
+     ansible.builtin.debug:
        msg : "{{users_output}}"
   
