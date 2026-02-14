@@ -34,3 +34,7 @@
     - name: convert to Uppercase
       ansible.builtin.debug:
        msg : "{{course | upper}}"
+
+    - name: check IPV4 address
+      ansible.builtin.debug:
+       msg: "{{myIP | ansible.utils.ipv4}}"
